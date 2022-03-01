@@ -78,7 +78,7 @@ If prompt to select editor chose `nano` or what you're most comfortable with
 
 Go to the end of the file and add Task.sh on periodic task (below assumes every 30 mintues)
 ```
-*/30 * * * * /home/pi/BESI-Digital_Relays/Task.sh
+*/30 * * * * /home/pi/BESI-Digital_Relays/task.sh
 ```
 
 Exit and Save with `CTRL+X` and `Enter`/`Return` Twice
