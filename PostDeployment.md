@@ -74,9 +74,10 @@
     - `scp pi@besic-relay-XXXX data.csv .`
 
 #### Process
-How to remove offload data from the Relays:
+How to remove/offload data from the Relays:
 
 1. Connect to **BESI-Network** WiFi
+1. Open Terminal / Command Prompt
 1. Connect to BaseStation over SSH
     - `ssh pi@<basestation hostname/ip>` *Note: BaseStation IP Address is 192.168.17.1 by default*
     - `[password]`
