@@ -7,11 +7,12 @@
 ### Data Offloading
 
 #### Terminology 
-**Terminal** []()
+**Terminal/Shell** [Terminal/Shell](https://en.wikipedia.org/wiki/Shell_(computing))
+>  In computing, a shell is a computer program which exposes an operating system's services to a human user or other programs. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is the outermost layer around the operating system.\[[1](https://en.wikipedia.org/wiki/Shell_(computing))\]
 
 **SSH** - [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
 >  The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution.  
->  SSH applications are based on a client–server architecture, connecting an SSH client instance with an SSH server. SSH operates as a layered protocol suite comprising three principal hierarchical components: the transport layer provides server authentication, confidentiality, and integrity; the user authentication protocol validates the user to the server; and the connection protocol multiplexes the encrypted tunnel into multiple logical communication channels. \[[1](https://en.wikipedia.org/wiki/Secure_Shell)\]
+>  SSH applications are based on a client–server architecture, connecting an SSH client instance with an SSH server. SSH operates as a layered protocol suite comprising three principal hierarchical components: the transport layer provides server authentication, confidentiality, and integrity; the user authentication protocol validates the user to the server; and the connection protocol multiplexes the encrypted tunnel into multiple logical communication channels. \[[2](https://en.wikipedia.org/wiki/Secure_Shell)\]
 #### Programs
 `ls` - [List Directory Contents](https://linux.die.net/man/1/ls)
 - Purpose:
