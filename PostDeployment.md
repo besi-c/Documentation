@@ -83,14 +83,6 @@ How to remove/offload data from the Relays:
     - `[password]`
 1. View Connected Devices
     - `arp -a`
-1. Connect to Relays over SSH
-    - `ssh pi@<relay hostname/ip>`
-    - `[password]`
-1. Check the sources
-    - `ls /var/besic/data`
-    - `ls /var/besic/archive`
-1. Exit Device(s)
-    - `exit`
 
 ### OFFLOAD
 1. Run offload scripts (located in basestation home directory)
@@ -100,17 +92,3 @@ How to remove/offload data from the Relays:
     SSH Back into devicE
         - `ssh pi@<relay hostname/ip>`
     - `sudo rm -rf /var/besic/archive/*`
-### LEGACY
-1. Offload data backups
-    - `scp pi@<relay hostname/ip>:/var/besic/archive/* .`
-    - `[password]`
-1. Delete Data Backups
-     SSH Back into device
-        - `ssh pi@<relay hostname/ip>`
-        - `[password]` 
-    - `sudo rm -rf /var/besic/archive/*`
-1. Exit Relay
-    - `exit`
-1. Run magical upload script 
-    - `MAGIC`
-1. Since right now the magical upload script doesn't really exist... copy data to your own machine and upload the data. Manually
